@@ -16,7 +16,7 @@ else:
     i = 1
     idx = 0
 
-    # width settings
+
     name_width = max(len(f) for f in foods)
     price_width = 10
     table_width = name_width + price_width + 12   # total line width
