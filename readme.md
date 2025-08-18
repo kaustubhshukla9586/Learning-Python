@@ -19,7 +19,7 @@ This repo will keep getting updated as I learn more 🚀
 | 7  | Basic Calculator with matchcase.py | Using `match-case` for calculator logic |
 | 8  | Username Maker.py | String manipulation project |
 | 9  | Weight Converter.py | Unit converter practice |
-| 10 | Temperature Conversion.py | Celsius ↔ Fahrenheit ↔ Kelvin |
+| 10 | Temperature Conversion.py | Celsius ↔ Fahrenheit |
 | 11 | Hypotenuse.py | Applying math functions |
 | 12 | Circumference or Area of Circle.py | Circle formula calculations |
 | 13 | Area of Rectangle.py | Rectangle area calculator |
