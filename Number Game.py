@@ -15,17 +15,17 @@ while True:
         game_range = int(input("Enter the range (10/100/1000/10000): "))
 
     if game_range == 10:
-        print("Fairly easy one you choose, NGL")
+        print("Fairly easy one you chose")
     elif game_range == 100:
         print("Well this one is little hard but not that hard")
     elif game_range == 1000:
-        print("HAHAHAH bro thinks he can do this lmaooo")
+        print("Hard")
     elif game_range == 10000:
-        print("you aint doing that bro because you're not him ")
+        print("Impossible under 6 tries")
 
     time.sleep(1)
 
-    num = random.randint(1, game_range)
+    num = random.randint(1, game_range+1)
     attempts = 0
 
     while True:
