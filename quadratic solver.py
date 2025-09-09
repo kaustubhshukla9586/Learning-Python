@@ -15,14 +15,13 @@ c = float(input("Enter the value of c: "))
 # Discriminant
 discriminant = (b ** 2) - (4 * a * c)
 
-# Root calculation
 if discriminant > 0:  # Two real & distinct roots
     root1 = (-b + math.sqrt(discriminant)) / (2 * a)
     root2 = (-b - math.sqrt(discriminant)) / (2 * a)
     print("The 1st root of the equation is", root1)
     print("The 2nd root of the equation is", root2)
 
-elif discriminant == 0:  # One real root
+elif discriminant == 0:  # for one real root
     root = -b / (2 * a)
     print("The root of the equation is", root)
 
