@@ -6,8 +6,8 @@ while True:
         break
     tasks.append(x)
 
-line = "To-Do List"
-print(line.center(20))
+line = " To-Do List "
+print(line.center(20,"="))
 
 i = 1
 for task in tasks:
